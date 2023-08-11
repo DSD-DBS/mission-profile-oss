@@ -1,0 +1,16 @@
+---
+# SPDX-FileCopyrightText: Copyright DB Netz AG
+# SPDX-License-Identifier: CC0-1.0
+
+mission_profile_publisher:
+    ros__parameters:
+        mission_profile_id: 2
+        mission_profile_topic: /mission_profile
+        map_provider: DB
+    #Bergedorf Bf - Berliner Tor
+        track_uuids: [a87ff679-a2f3-371d-9181-a67b7542122c, cf874aad-79e1-3b40-9a4c-86954a596fa5, e4da3b7f-bbce-3345-9777-2b0674a318d5, e8647dce-263d-305d-bb0d-605a5d6c2d1b,
+            1679091c-5a88-3faf-afb5-e6087eb1b2dc, 45c48cce-2e2d-3fbd-aa1a-fc51c7c6ad26, 6512bd43-d9ca-36e0-ac99-0b0a82652dca, 8f14e45f-ceea-367a-9a36-dedd4bea2543,
+            c20ad4d7-6fe9-3759-aa27-a0c99bff6710, c543e788-6500-3ff0-8712-67d0cf4dfac2, d3d94468-02a4-3259-b55d-38e6d163e820, da11c84c-2797-3df6-b1bb-bf30ba08d32a,
+            7ce7f37d-5c95-31c8-abfa-cbd5d0f88ab6, 9d4da62d-62d4-3ebd-8073-cc78b838275e, bc01e75e-efbf-3c58-8605-d76d5420699c, c4ca4238-a0b9-3382-8dcc-509a6f75849b,
+            c81e728d-9d4c-3f63-af06-7f89cc14862c, eccbc87e-4b5c-32fe-a830-8fd9f2a7baf3, 7501e5d4-da87-3c39-9782-741cd794002d]
+        dds_qos: 3
